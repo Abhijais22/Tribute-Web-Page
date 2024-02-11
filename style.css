@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9b1ed;
+    color: rgb(44, 8, 56);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    color: rgb(107, 14, 189);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block; /* Ensure the image is treated as a block element */
+    margin-left: auto; /* Auto margin left and right to center the image */
+    margin-right: auto;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold; /* Make the footer text bold */
+    color: rgb(232, 32, 14);
+}
